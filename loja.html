@@ -14,15 +14,17 @@
 
 </head>
     <body>
-        <header>    
-            <na>
-                <ul>
-                    <li><a href="index.html"><img src="images/logo.png"></a></li><!--Logo do site-->
-                    <li><a href="loja.html">LOJA</a></li>
-                    <li><a href="contato.html">CONTATO</a></li>
-                    <li><a href="sobre.html">SOBRE</a></li>
+        <header class="main-header">    
+            <nav class="main-nav">
+                <ul class="header-list-container">
+                    <li class="nav-item"><a href="index.html"><img src="images/logo.png" alt="logo"><a>
+                    </li>
+                    <li class="nav-item"><a href="loja.html">LOJA</a></li>
+                    <li class="nav-item"><a href="contato.html">CONTATO</a></li>
+                    <li class="nav-item"><a href="sobre.html">SOBRE</a></li>
                 </ul>
-            </na>
+            </nav>
+            <hr>
         </header>
             <main>
                 <h2>Seja bem vindo ao maior site de vendas do Brasil!</h2>
@@ -137,6 +139,27 @@
                                 <button type="button">Adicionar ao carrinho</button>
                         </div>
                     </div>
+                </section>
+                <section>
+                    <h2>Carrinho</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Preço</th>
+                                <th>Quantidade</th>
+                            </tr>                            
+                        </thead>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">
+                                    <strong>Total</strong>
+                                    <span>R$ 0,00</span>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <button type="button">Finalizar Compra</button>   
                 </section>
             </main>
         <footer>
