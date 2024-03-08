@@ -16,7 +16,6 @@
 .main-nav {
     width: 100%;
     max-width: 600px;
-    padding: 0 16px;
 }
 .header-list-container {
     display: flex;
@@ -39,4 +38,26 @@ hr {
 .nav-item:hover {
     color: #00008bb3;
     transition: 0.5s;
+}
+.main-about {
+    padding: 40px 0 64px;
+}
+.container {
+    max-width: 600px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.about-title {
+    font-family: Rock Salt;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+.about-image {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+    height: auto;
 }
