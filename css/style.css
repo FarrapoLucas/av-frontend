@@ -6,6 +6,18 @@
     font-family: Rock Salt;
     font-size: small;
 }
+li {
+    list-style-type: none;
+}
+:root{
+    --blue: #00008b;
+    --gray: #555555;
+    --skyblue: #00bfff;
+    --silver: #c0c0c0;
+    --red: #ff0000;
+    --white: #ffffff;
+    --darkgray: #959595;
+}
 .main-header {
     background-image: url(background-image.png);
     background-position: 50% 39%;
@@ -24,9 +36,8 @@
     padding: 16px 0;
 }
 .nav-item{
-    list-style-type: none;
     text-transform: uppercase;
-    color: #00008b;
+    color: var(--blue);
 }
 hr {
     width: 100%;
@@ -47,17 +58,47 @@ hr {
     padding: 0 16px;
     margin: 0 auto;
 }
-
 .about-title {
     font-family: Rock Salt;
     font-size: 32px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 24px;
+    color: var(--gray)
 }
 .about-image {
     float: left;
     margin: 0 20px 10px 0;
     width: 200px;
     height: auto;
+}
+.about-description{
+    color: var(--gray);
+    text-align: justify;
+}
+.main-footer{
+    background-color: var(--skyblue);
+    padding: 15px 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-smaller{
+    color: var(--blue);
+    font-size: 15px;
+}
+.list-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-item{
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+}
+.footer-item + .footer-item{
+    margin-left: 16px;
 }
