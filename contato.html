@@ -27,38 +27,41 @@
             <hr>
         </header>
             <main>
-                <h2>CONTATO</h2>
-                <P>Os campos com * são de preenchimento obrigatório!</P>
-                <form>
-                    <label>
+                <h2 class="title-median">CONTATO</h2>
+                <P class="contact-text">Os campos com * são de preenchimento obrigatório!</P>
+                <form class="contact">
+                    <label class="contact-label">
                         Nome*
-                        <input type="texto" required>
+                        <input class="contact-field" type="texto" required>
                     </label>
-                    <label>
+                    <label class="contact-label">     
                         E-mail*
-                        <input type="texto" required>
+                        <input class="contact-field" type="texto" required>
                     </label>
-                    <label>
+                    <label class="contact-label">
                         Assunto*
-                        <select>
+                        <select class="contact-field">
+                            <option>newsletter</option>
                             <option>Dúvidas</option>
                             <option>Surgestões</option>
                             <option>Críticas</option>
                             <option>Processinho</option>
                         </select>
                     </label>
-                    <label>
+                    <label class="contact-label">
                         Mensagem*
-                        <textarea required></textarea>
+                        <textarea class="contact-field" required></textarea>
                     </label>
-                    <button type="button">Enviar</button>
+                    <button class="button-form" type="button">Enviar</button>
                 </form>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7141.9192787780985!2d37.61660101470209!3d55.75252685019765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2sKremlin%20de%20Moscovo!5e0!3m2!1spt-BR!2sbr!4v1707130628506!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="localidade"></iframe>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56157.4548410645!2d-0.07682517810747119!3d51.53463525795406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760520cd5b5eb5%3A0xa26abf514d902a7!2sPal%C3%A1cio%20de%20Buckingham!5e0!3m2!1spt-BR!2sbr!4v1710248120294!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </main>
         <footer class="main-footer">
-            <div class="main-footer-container">
+            <div class="footer-container">
                 <h3 class="title-smaller">Vendas Livres Store - Lucas Farrapo - 2024</h3>
-                <ul class="list-container">
+                <ul class="footer-container">
                     <li class="footer-item">
                         <a href="https://www.facebook.com/" target="_black"><img src="images/facebook.svg" alt="facebook-logo"></a>
                     </li>

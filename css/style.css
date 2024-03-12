@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+:root {
+    --blue: #00008b;
+    --gray: #555555;
+    --skyblue: #00bfff;
+    --silver: #c0c0c0;
+    --red: #ff0000;
+    --white: #ffffff;
+    --darkgray: #959595;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +17,6 @@
 }
 li {
     list-style-type: none;
-}
-:root{
-    --blue: #00008b;
-    --gray: #555555;
-    --skyblue: #00bfff;
-    --silver: #c0c0c0;
-    --red: #ff0000;
-    --white: #ffffff;
-    --darkgray: #959595;
 }
 .main-header {
     background-image: url(background-image.png);
@@ -58,7 +58,7 @@ hr {
     padding: 0 16px;
     margin: 0 auto;
 }
-.about-title {
+.title-median {
     font-family: Rock Salt;
     font-size: 32px;
     text-align: center;
@@ -72,7 +72,7 @@ hr {
     width: 200px;
     height: auto;
 }
-.about-description{
+.about-description {
     color: var(--gray);
     text-align: justify;
 }
@@ -80,25 +80,74 @@ hr {
     background-color: var(--skyblue);
     padding: 15px 0;
 }
-.main-footer-container{
+.footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.title-smaller{
+.title-smaller {
     color: var(--blue);
     font-size: 15px;
 }
-.list-container{ 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.footer-item{
+.footer-item {
     width: 50px;
     height: 50px;
     padding: 15px 0;
 }
-.footer-item + .footer-item{
+.footer-item + .footer-item {
     margin-left: 16px;
+}
+.contact-text {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: var(--gray);
+}
+.contact {
+    background-color: var(--skyblue);
+    padding: 30px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.contact-label {
+    display: block;
+    margin-bottom: 20px;
+    color: var(--blue);
+}
+.contact-field {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+}
+.contact-field:focus {
+    background-color: var(--silver);
+    outline: none;
+}
+textarea.contact-field {
+    height: 150px;
+    padding: 10px;
+}
+.button-form {
+    background-color: var(--blue);
+    color: var(--white);
+    border: 2px solid var(--blue);
+    border-radius: 10px;
+    padding: 2px 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-form:hover {
+    background-color: var(--white);
+    color: var(--blue);
+}
+.contact-map {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
