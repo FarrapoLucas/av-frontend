@@ -177,3 +177,50 @@ textarea.contact-field {
     justify-content: space-between;
     gap: 40px;
 }
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-title {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.product-image {
+    width: 320px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+.product-price-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+.button-hover {
+    background-color: var(--skyblue);
+    color: var(--blue);
+    border: 2px solid var(--skyblue);
+    border-radius: 10px;
+    padding: 4px 2px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 5px;
+}
+.button-hover:hover {
+    background-color:transparent;
+}
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-head-item {
+    text-align: start;
+    border-bottom: 1px solid var(--darkgray);
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
