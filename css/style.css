@@ -80,7 +80,7 @@ hr {
     background-color: var(--skyblue);
     padding: 15px 0;
 }
-.footer-container {
+.main-footer-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -88,6 +88,11 @@ hr {
 .title-smaller {
     color: var(--blue);
     font-size: 15px;
+}
+.list-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .footer-item {
     width: 50px;
@@ -284,4 +289,52 @@ textarea.contact-field {
 }
 .purchase-button:hover {
     filter: brightness(0.8);
+}
+
+/*Responsavidade*/
+
+@media (max-width: 740px) {
+    .main-footer-container {
+        flex-direction: column;
+    }
+    .title-smaller {
+        font-size: 10px;
+    }
+    .footer-item {
+        width: 25px;
+        height: 25px;
+        padding: 15px 0;
+    }
+    .nav-item a {
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .nav-item img {
+        width: 100px;
+        height: 100px;
+    }
+    .title-header {
+        font-size: 15px;
+    }
+    .title-large {
+        font-size: 25px;
+    }
+    .title-median {
+        font-size: 25px;
+    }
+    .product-price {
+        font-size: 15px;
+    }
+    .table-head-item {
+        font-size: 10px;
+    }
+    .cart-product-image {
+        height: 50px;
+    }
+    .cart-product-title {
+        font-size: 10px;
+    }
+    .cart-product-price {
+        font-size: 10px;
+    }
 }
