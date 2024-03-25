@@ -151,10 +151,12 @@ textarea.contact-field {
     color: var(--blue);
 }
 .contact-map {
-    width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
+    height: 500px;
+    width: 100%;
+    max-width: 600px;
 }
 .title-header {
     color: var(--blue);
@@ -192,7 +194,7 @@ textarea.contact-field {
     margin-bottom: 6px;
 }
 .product-image {
-    width: 320px;
+    width: 260px;
     height: 220px;
     margin-bottom: 20px;
 }
@@ -290,6 +292,10 @@ textarea.contact-field {
 .purchase-button:hover {
     filter: brightness(0.8);
 }
+.description2 {
+    font-size: 10px;
+    text-align: center;
+}
 
 /*Responsavidade*/
 
@@ -321,6 +327,7 @@ textarea.contact-field {
     }
     .title-median {
         font-size: 25px;
+        padding: 5px;
     }
     .product-price {
         font-size: 15px;
@@ -336,5 +343,13 @@ textarea.contact-field {
     }
     .cart-product-price {
         font-size: 10px;
+    }
+}@media (max-width: 679px) {
+    .product-container {
+        justify-content: center;
+    }
+    .title-median {
+        font-size: 20px;
+        padding: 5px;
     }
 }
